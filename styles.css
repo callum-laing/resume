@@ -17,8 +17,13 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+
 }
 
+body a:link,
+body a:visited {
+    text-decoration: none;
+}
 
 .wrapper {
     width: 8.5in;
@@ -40,30 +45,38 @@ body {
 h1 {
     font-size: 5rem;
     font-weight: 900;
+    font-family: "Poiret One", cursive;
 }
 
 h2 {
-    font-weight: 600;
-    font-size: 1.2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
     margin-top: 10px;
-    margin-bottom: 10px;
+    font-family: "Poiret One"
 }
 
 h4 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
     text-decoration: underline;
     margin-top: 20px;
 }
 
 h5 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bold;
 }
 
 p {
     font-size: 0.9rem;
 }
+
+h4,
+h5,
+p {
+    font-family: "Quicksand", sans-serif
+}
+
 
 .job-title {
     font-size: 1.5rem;
@@ -79,18 +92,21 @@ span {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid red;
     grid-area: 1 / 1 / 2 / 6;
+    border-bottom: rgb(45, 0, 129) 1px solid;
 }
 
 
 .sidebar {
-    border: 1px solid blue;
     grid-area: 2 / 1 / 6 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    border-right: rgb(45, 0, 129) 1px solid;
 }
 
 .main-content {
-    border: 1px solid green;
     grid-area: 2 / 2 / 6 / 6;
     display: flex;
     flex-direction: column;
