@@ -11,14 +11,11 @@
 }
 
 @media print {
-    @page {
-        size: 8.5in 12in;
-    }
+    @page {}
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-
+    background-color: #dbf5ff;
 }
 
 body a:link,
@@ -26,9 +23,10 @@ body a:visited {
     text-decoration: none;
 }
 
+
 .wrapper {
-    width: 8.5in;
-    height: 12in;
+    width: 210mm;
+    height: 297mm;
 }
 
 .gridParent {
@@ -40,6 +38,7 @@ body a:visited {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     gap: 5px;
+    background-color: white;
 }
 
 h1 {
