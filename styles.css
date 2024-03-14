@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: #dbf5ff;
+    background-color: black;
 }
 
 body a:link,
@@ -34,7 +34,7 @@ body a:visited {
     height: 100%;
     display: grid;
     grid-template-columns: 240px 1fr 1fr 1fr;
-    grid-template-rows: 200px 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     gap: 5px;
@@ -42,7 +42,7 @@ body a:visited {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 900;
     font-family: "Poiret One", cursive;
 }
@@ -67,7 +67,7 @@ h5 {
 }
 
 p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 h4,
@@ -100,7 +100,7 @@ span {
     grid-area: 2 / 1 / 6 / 2;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     margin-left: 10px;
     border-right: rgb(45, 0, 129) 1px solid;
     line-height: 1.8;
