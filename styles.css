@@ -67,13 +67,15 @@ h5 {
     font-weight: bold;
 }
 
-p {
+p,
+li {
     font-size: 0.8rem;
 }
 
 h4,
 h5,
-p {
+p,
+li {
     font-family: "Quicksand", sans-serif
 }
 
