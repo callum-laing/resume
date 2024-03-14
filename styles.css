@@ -27,6 +27,7 @@ body a:visited {
 .wrapper {
     width: 210mm;
     height: 297mm;
+    margin: 0 auto;
 }
 
 .gridParent {
