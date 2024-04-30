@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
     font-family: calibri;
 }
 
@@ -28,12 +28,24 @@ body a:visited {
     margin: 0 auto;
 }
 
+.titleWrapper {
+    background-color: rgba(150, 50, 50, 0.5);
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.titleWrap {
+    background-color: white;
+    border: 2px solid black;
+}
+
 .gridParent {
     width: 100%;
     height: 100%;
     background-color: white;
     padding: 10px;
 }
+
 
 h1 {
     font-size: 3rem;
@@ -43,24 +55,24 @@ h1 {
 
 h2 {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-top: 10px;
     font-family: cambria;
 }
 
 h4 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
 h5 {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
 p,
 li {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -73,7 +85,7 @@ li {
 .links {
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 5px;
 }
 
 .titleDates {
@@ -90,4 +102,8 @@ li {
 
 .skillsTitle {
     font-weight: 900;
+}
+
+hr {
+    border: 1px solid black;
 }
